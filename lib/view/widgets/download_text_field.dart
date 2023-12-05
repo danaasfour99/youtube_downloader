@@ -27,7 +27,7 @@ class DownloadTextField extends StatelessWidget {
             borderSide: BorderSide(color: Colors.grey.withOpacity(0.12))),
         filled: true,
         hintStyle: TextStyle(color: Colors.grey.shade400),
-        hintText: "Paste Youtube url here",
+        hintText: "Paste your url here",
         fillColor: Colors.grey.withOpacity(0.12),
         suffixIcon: downloaderController.url.value.isNotEmpty
             ? IconButton(

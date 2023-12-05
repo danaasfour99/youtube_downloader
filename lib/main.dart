@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
       child: GetMaterialApp(
         initialBinding: PermissionBinding(),
         debugShowCheckedModeBanner: false,
-        title: 'Youtube downloader',
+        title: 'Video downloader',
         theme: ThemeData(
           fontFamily: "Kanit",
           elevatedButtonTheme: ElevatedButtonThemeData(

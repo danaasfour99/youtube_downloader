@@ -41,7 +41,7 @@ class NavBarController extends GetxController with WidgetsBindingObserver {
       case 1:
         return "Finished";
       default:
-        return "Youtube downloader";
+        return "Video downloader";
     }
   }
 

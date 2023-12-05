@@ -87,7 +87,6 @@ class DownloaderController extends GetxController {
       }
 
       var file = File('${dir.path}/$fileName.mp4');
-      if (file.existsSync()) {}
 
       var fileStream = file.openWrite(mode: FileMode.writeOnlyAppend);
       var len = muxedStreamInfo.size.totalBytes;
